@@ -19,8 +19,8 @@ func main() {
 	}
 
 	m := monitor.Monitor{
-		Link:    "https://arcteryx.com/nl/en/shop/mens/beta-lt-jacket",
-		Webhook: "https://discord.com/api/webhooks/1021479484370731098/qgFBZX5mbRB-s70Al0rjw2UfzbJo12dvRk0zMsjEzRW0NQ_tKuxUYxUSr1UIlSAF9dcG",
+		Link:    *link,
+		Webhook: *webhook,
 	}
 
 	m.Monitor()
